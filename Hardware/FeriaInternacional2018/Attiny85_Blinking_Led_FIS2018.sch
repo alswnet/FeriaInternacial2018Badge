@@ -2990,39 +2990,39 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="U1" library="_hhn_attiny25_45_85" deviceset="ATTINY85*" device="P" technology="-20" value="ATTINY85-20P"/>
-<part name="BT1" library="SparkFun-Batteries" deviceset="BATTERY" device="-20MM_SMD_4LEGS"/>
+<part name="BT1" library="SparkFun-Batteries" deviceset="BATTERY" device="-20MM_SMD_4LEGS" value="3.3V"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="10KOHM" device="-HORIZ-1/4W-1%" value="10k"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
-<part name="D1" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D2" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D3" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D4" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D5" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D6" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D7" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D8" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D9" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D10" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D11" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D12" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D13" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D14" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D15" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D16" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D17" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D18" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D19" library="SparkFun-LED" deviceset="LED" device="3MM"/>
-<part name="D20" library="SparkFun-LED" deviceset="LED" device="3MM"/>
+<part name="D1" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D2" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D3" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D4" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D5" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D6" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D7" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D8" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D9" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D10" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D11" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D12" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D13" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D14" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D15" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D16" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D17" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D18" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D19" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
+<part name="D20" library="SparkFun-LED" deviceset="LED" device="3MM" value="RED"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="10KOHM" device="-HORIZ-1/4W-1%" value="10k"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="10KOHM" device="-HORIZ-1/4W-1%" value="10k"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="10KOHM" device="-HORIZ-1/4W-1%" value="10k"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="10KOHM" device="-HORIZ-1/4W-1%" value="10k"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="10KOHM" device="-HORIZ-1/4W-1%" value="10k"/>
-<part name="S1" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-SMD-RIGHT-ANGLE"/>
-<part name="J1" library="SparkFun-Connectors" deviceset="CONN_03X2" device="POGO_PINS"/>
+<part name="S1" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-SMD-RIGHT-ANGLE" value="SWITCH"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="CONN_03X2" device="POGO_PINS" value="SPI"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 </parts>
 <sheets>
@@ -3512,6 +3512,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,40.64,109.22,BT1,-,GND,,,"/>
+<approved hash="104,1,40.64,119.38,BT1,+,N$2,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
